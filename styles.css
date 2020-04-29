@@ -1,0 +1,221 @@
+:root {
+  --darkBlueIntro-Email: hsl(217, 28%, 15%);
+  --darkBlueMain: hsl(218, 28%, 13%);
+  --darkBlueFooter: hsl(216, 53%, 9%);
+  --darkBlueTestim: hsl(219, 30%, 18%);
+  --cyan: hsl(176, 68%, 64%);
+  --blue: hsl(198, 60%, 50%);
+  --white: hsl(0, 0%, 100%);
+}
+
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin: 0 0;
+  box-sizing: border-box;
+  background-color: var(--darkBlueMain);
+  color: var(--white);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.nav {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  padding: 2.5vh 2.5vh;
+  justify-content: space-between;
+  width: 100%;
+  background-color: var(--darkBlueIntro-Email);
+}
+
+.nav-links a {
+  margin-left: 5vw;
+  text-decoration: none;
+  color: var(--white);
+}
+
+#nav-logo {
+  max-width: 80px;
+}
+
+.first {
+  box-sizing: border-box;
+  min-width: 100%;
+  padding: 3vh 7.5vw 0 7.5vw;
+  background-color: var(--darkBlueIntro-Email);
+  background-image: url(./images/bg-curvy-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+}
+
+#ill-intro, #ill-stay-prod {
+  height: auto;
+  max-width: 90vw;
+}
+
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+#get-started-btn {
+  height: 50px;
+  width: 60vw;
+  color: white;
+  font-weight: 600;
+  background: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  border-radius: 45px;
+  border-style: none;
+  margin-top: 5vh;
+}
+
+#get-started-btn:hover {
+  background: none;
+  background-color: var(--cyan);
+}
+
+.second {
+  margin-top: 15vh;
+  box-sizing: border-box;
+  min-width: 100%;
+  padding: 3vh 7.5vw 0 7.5vw;
+}
+
+.second-card {
+  margin-bottom: 10vh;
+}
+
+.third {
+  margin-top: 15vh;
+  text-align: left;
+  box-sizing: border-box;
+  min-width: 100%;
+  padding: 3vh 7.5vw 0 7.5vw;
+}
+
+.third h2 {
+  margin-top: 10vh;
+}
+
+.quotes {
+  margin-top: 10vw;
+  box-sizing: border-box;
+  min-width: 100%;
+  padding: 3vh 7.5vw 0 7.5vw;
+}
+
+.quote {
+  background-color: var(--darkBlueTestim);
+  padding: 2vh 2.5vh;
+  margin-top: 3vh;
+  text-align: left;
+  border-style: none;
+  border-radius: 10px;
+}
+
+.quote p {
+  margin-top: 0;
+}
+
+.quote-id {
+  display: flex;
+  max-height: 8vh;
+  align-items: center;
+}
+
+.name {
+  margin: 0 0;
+  font-weight: 600;
+}
+
+.headline {
+  font-weight: 0;
+  font-size: 0.9rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.img-cntnr {
+  text-align: center;
+  margin-right: 3vw;
+}
+
+.profile-img {
+  border-radius: 50%;
+  max-height: 5vh;
+}
+
+.get-early {
+  background-color: var(--darkBlueIntro-Email);
+  padding: 2.5vh 2.5vh;
+  margin: 15vh 10vw 0 10vw;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: 4px 4px 8px black;
+}
+
+.get-early h2 {
+  margin-top: 3.5vh;
+}
+
+form {
+  margin: 3.5vh 0;
+}
+
+#email-input {
+  height: 50px;
+  width: 90%;
+  border-radius: 45px;
+  padding-left: 4vw;
+  border-style: none;
+}
+
+#email-submit {
+  height: 55px;
+  width: 90%;
+  color: white;
+  font-weight: 600;
+  background: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  border-radius: 45px;
+  border-style: none;
+  margin-bottom: 3.5vh;
+}
+
+#email-submit:hover {
+  background: none;
+  background-color: var(--cyan);
+}
+
+.footer {
+  margin-top: 15vh;
+  text-align: left;
+  box-sizing: border-box;
+  min-width: 100%;
+  padding: 3vh 10vw 0 10vw;
+}
+
+.links {
+  list-style: none;
+  margin-top: 5vh;
+  padding: 0 0;
+}
+
+li {
+  margin-top: 2vh;
+}
+
+/* 768px wide and above */
+@media (min-width: 768px) {
+  body {
+
+  }
+}
