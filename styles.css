@@ -215,7 +215,83 @@ li {
 
 /* 768px wide and above */
 @media (min-width: 768px) {
-  body {
+  .nav {
+    padding: 5vh 3.5vw 0 3.5vw;
+  }
 
+  .first {
+    margin-bottom: 15vh;
+  }
+
+  .first h1, p {
+    margin: auto;
+    max-width: 35vw;
+  }
+
+  .first h1 {
+    line-height: 2.5rem;
+    margin: 3vh auto 3vh auto;
+  }
+
+  .first button {
+    max-width: 20vw;
+  }
+
+  .first p {
+    line-height: 1.5rem;
+  }
+
+  .second {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 0;
+    max-width: 60vw;
+    padding: 0 0 0 0;
+    margin: 10vh 15vw 0 15vw;
+    justify-content: space-between;
+  }
+
+  .second-card {
+    width: 45%;
+  }
+
+  #ill-stay-prod {
+    float: left;
+    margin-right: 5vw;
+  }
+
+  .third p, h2, a {
+    margin-right: 1vw;
+    margin-bottom: 2.5vh;
+  }
+
+  .quotes {
+    display: flex;
+  }
+
+  .quote {
+    box-sizing: border-box;
+    margin: 0 1vw 0 1vw;
+    padding: 5vh 5vh 5vh 5vh;
+  }
+
+  .quote-id {
+    margin: 3vh 0 0 0.2vw !important;
+  }
+
+  .img-cntnr {
+    margin: 0 1vw 0 0;
+  }
+
+  .profile-img {
+    max-height: 10vh;
+  }
+
+  .get-early {
+    min-width: 60vw;
+  }
+
+  .footer {
+    
   }
 }
