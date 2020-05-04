@@ -213,6 +213,14 @@ li {
   margin-top: 2vh;
 }
 
+.see-how {
+  color: var(--cyan);
+}
+
+.see-how img {
+  margin: 0 0;
+}
+
 /* 768px wide and above */
 @media (min-width: 768px) {
   .nav {
