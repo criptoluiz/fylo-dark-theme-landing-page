@@ -289,12 +289,14 @@ li {
 
   .get-early {
     min-width: 60vw;
-    margin-bottom: 20vh;
+    margin-bottom: 10vh;
   }
 
   .footer {
     margin-top: 0;
-    margin-bottom: 5vh;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    background-color: var(--darkBlueFooter);
   }
 
   .footer-links {
@@ -311,5 +313,18 @@ li {
   .links {
     margin: 0 0;
     padding: 0 0;
+  }
+
+  .footer-links img {
+    margin-right: 1vw;
+  }
+
+  .footer-links p {
+    margin-bottom: 2vh;
+  }
+
+  .footer-links li {
+    margin-top: 0;
+    margin-bottom: 2vh;
   }
 }
