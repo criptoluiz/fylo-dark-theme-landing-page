@@ -187,7 +187,8 @@ form {
   background: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
   border-radius: 45px;
   border-style: none;
-  margin-bottom: 3.5vh;
+  margin-bottom: 1.5vh;
+  margin-top: 3vh;
 }
 
 #email-submit:hover {
@@ -219,6 +220,10 @@ li {
 
 .see-how img {
   margin: 0 0;
+}
+
+.footer-links img {
+  margin-right: 2vw;
 }
 
 /* 768px wide and above */
@@ -300,6 +305,20 @@ li {
     margin-bottom: 10vh;
   }
 
+  form {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 3vw;
+    align-items: center;
+  }
+
+  form button {
+    max-width: 250px;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-left: 2vw;
+  }
+
   .footer {
     margin-top: 0;
     padding-top: 10vh;
@@ -323,9 +342,7 @@ li {
     padding: 0 0;
   }
 
-  .footer-links img {
-    margin-right: 1vw;
-  }
+
 
   .footer-links p {
     margin-bottom: 2vh;
